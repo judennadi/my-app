@@ -185,7 +185,7 @@ body {
   /* transform: translate(-10px, -12px); */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 825px) {
   .nav-menu {
     position: fixed;
     top: 0;
