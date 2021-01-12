@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.ed842c62.chunk.css",
+    "main.js": "/my-app/static/js/main.d4fdfcfe.chunk.js",
+    "main.js.map": "/my-app/static/js/main.d4fdfcfe.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.8c504172.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.8c504172.js.map",
+    "static/js/2.9037eafb.chunk.js": "/my-app/static/js/2.9037eafb.chunk.js",
+    "static/js/2.9037eafb.chunk.js.map": "/my-app/static/js/2.9037eafb.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/main.ed842c62.chunk.css.map": "/my-app/static/css/main.ed842c62.chunk.css.map",
+    "static/js/2.9037eafb.chunk.js.LICENSE.txt": "/my-app/static/js/2.9037eafb.chunk.js.LICENSE.txt",
+    "static/media/cPlus.2441702d.svg": "/my-app/static/media/cPlus.2441702d.svg",
+    "static/media/cSharp.52c60f29.svg": "/my-app/static/media/cSharp.52c60f29.svg",
+    "static/media/cover-img.0c95a522.jpg": "/my-app/static/media/cover-img.0c95a522.jpg",
+    "static/media/css.212d777a.svg": "/my-app/static/media/css.212d777a.svg",
+    "static/media/express.7d023c32.svg": "/my-app/static/media/express.7d023c32.svg",
+    "static/media/facebook.5aa9dd97.svg": "/my-app/static/media/facebook.5aa9dd97.svg",
+    "static/media/git.dd8f1dca.svg": "/my-app/static/media/git.dd8f1dca.svg",
+    "static/media/github.d1bb13ce.svg": "/my-app/static/media/github.d1bb13ce.svg",
+    "static/media/golang.a7ec2a5c.svg": "/my-app/static/media/golang.a7ec2a5c.svg",
+    "static/media/html.3a09d060.svg": "/my-app/static/media/html.3a09d060.svg",
+    "static/media/javascript.acc4642f.svg": "/my-app/static/media/javascript.acc4642f.svg",
+    "static/media/npm.3cad4cc6.svg": "/my-app/static/media/npm.3cad4cc6.svg",
+    "static/media/profile.025cfa67.jpg": "/my-app/static/media/profile.025cfa67.jpg",
+    "static/media/project1.335bde92.png": "/my-app/static/media/project1.335bde92.png",
+    "static/media/python.063da199.svg": "/my-app/static/media/python.063da199.svg",
+    "static/media/react.3adc4d15.svg": "/my-app/static/media/react.3adc4d15.svg",
+    "static/media/twitter.6bd5ae51.svg": "/my-app/static/media/twitter.6bd5ae51.svg",
+    "static/media/typescript.9ad81d2e.svg": "/my-app/static/media/typescript.9ad81d2e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c504172.js",
+    "static/js/2.9037eafb.chunk.js",
+    "static/css/main.ed842c62.chunk.css",
+    "static/js/main.d4fdfcfe.chunk.js"
+  ]
+}
