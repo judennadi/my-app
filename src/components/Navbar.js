@@ -4,7 +4,7 @@ import profile from "../images/profile.jpg";
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [nav, setNav] = useState(false);
-  let mql = window.matchMedia("(min-width: 769px)");
+  let mql = window.matchMedia("(min-width: 825px)");
   const navRef = useRef(null);
   // console.log(navRef);
 

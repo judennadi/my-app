@@ -6,16 +6,17 @@ class About extends Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef();
+    this.dp = React.createRef();
     this.state = {
       scrolled: false,
       following: false,
+      shrink: false,
     };
   }
   handleClick = (e) => {
     this.setState((state) => ({
       following: !state.following,
     }));
-    // this.setState({ following: true });
     if (!this.state.following) {
       e.target.style.background = "#1da1f2";
       e.target.style.color = "#fff";
@@ -33,11 +34,21 @@ class About extends Component {
     let { height } = this.myRef.current.getBoundingClientRect();
     let myTop = this.myRef.current.offsetTop;
     let myBottom = myTop + height;
+    let dpTop =
+      window.pageYOffset + this.dp.current.getBoundingClientRect().top - 40;
+    let mql = window.matchMedia("(max-width: 825px)");
 
     if (offset >= myTop && offset < myBottom) {
       this.setState({ scrolled: true });
-    } else {
+    }
+    if (offset < myTop && offset > myBottom) {
       this.setState({ scrolled: false });
+    }
+    if (offset > dpTop && mql.matches) {
+      this.setState({ shrink: true });
+    }
+    if (offset < dpTop && mql.matches) {
+      this.setState({ shrink: false });
     }
   };
   componentDidMount() {
@@ -62,7 +73,9 @@ class About extends Component {
             <div className="cov-div">
               <img src={coverImg} alt="jude" className="cover-photo-img" />
             </div>
-            <div className="about-img">
+            <div
+              className={this.state.shrink ? "about-img shrink" : "about-img"}
+              ref={this.dp}>
               <img src={profile} alt="jude" />
             </div>
           </div>

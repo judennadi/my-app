@@ -16,7 +16,7 @@ const SideBar = () => {
   ];
   const [follow, setFollow] = useState(true);
   const [side, setSide] = useState(false);
-  let mql = window.matchMedia("(min-width: 769px)");
+  let mql = window.matchMedia("(min-width: 825px)");
   const sideRef = useRef(null);
 
   const handleFollow = (e) => {
